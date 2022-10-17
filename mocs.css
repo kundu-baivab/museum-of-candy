@@ -1,0 +1,51 @@
+body{
+    background-color: #f5d9d5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#mainNavbar{
+    background-color: rgb(220, 112, 182);
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: rgb(10, 65, 112);
+}
+
+#mainNavbar .nav-link:hover{
+    color: red;
+}
+
+#mainNavbar .navbar-brand{
+    color: rgba(159, 57, 20, 0.823);
+}
+
+#heading span{
+    color: red;
+}
+
+#heading h1{
+    font-weight: 100;
+    font-size: 3.4rem;
+}
+
+@media (max-width:1250px){
+    #heading h1{
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+}
+
+h2{
+    color: rgb(191, 21, 21);
+}
+
+.text{
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+.content{
+    margin-top: 100px;
+}
